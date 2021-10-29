@@ -1,0 +1,115 @@
+body {
+  margin: 0px;
+}
+.App {
+  min-height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  background-image: linear-gradient(to left, #eb636c, #C36A2D)
+}
+.title {
+  font-family: "Roboto";
+  font-weight: 900;
+  margin-top: 6vw;
+  font-size: 5vw;
+  color: #fff;
+  text-transform: uppercase;
+}
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4vw;
+}
+.search-bar {
+  border-radius: 10px 0px 0px 10px;
+  width: 50%;
+  border: none;
+  padding: 1vw;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1.6vw;
+}
+.search-bar:focus {
+  outline: none;
+}
+.search-button {
+  border-radius: 0px 10px 10px 0px;
+  background: #000;
+  border: none;
+  padding: 1vw 2vw;
+  color: white;
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 1.6vw;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.search-button:hover {
+  transition: 0.4s;
+  background: #8753f9;
+}
+.search-button:focus {
+  outline: none;
+}
+.recipes {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.recipe {
+  background: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 8px 32px 0 rgba(172, 178, 255, 0.692);
+  backdrop-filter: blur(12.5px);
+  -webkit-backdrop-filter: blur(12.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* background: #fff; */
+  align-items: center;
+  min-width: 40%;
+  font-family: "Roboto", sans-serif;
+  max-width: 37em;
+  min-height: 38em;
+  padding: 2vw 1vw;
+}
+.recipe-title {
+  font-family: "Roboto";
+  font-size: 3vw;
+  font-weight: 900;
+  margin: 0.75vw;
+}
+.image {
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+}
+.nutrition {
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #fff;
+  font-family: "Roboto";
+  font-weight: 900;
+}
+
+.nutrition.cals {
+  margin-bottom: 0px;
+}
+
+.ul-text {
+  font-size: 20px;
+  line-height: 35px;
+}
